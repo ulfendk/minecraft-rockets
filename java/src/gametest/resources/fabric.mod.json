@@ -1,0 +1,18 @@
+{
+	"schemaVersion": 1,
+	"id": "rockets-test",
+	"version": "1.0.0",
+	"name": "Rockets tests",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-gametest": [
+			"dk.ulfen.rockets.test.RocketGameTests"
+		],
+		"fabric-client-gametest": [
+			"dk.ulfen.rockets.test.RocketClientGameTest"
+		]
+	},
+	"depends": {
+		"rockets": "*"
+	}
+}

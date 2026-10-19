@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "rockets",
+	"version": "${version}",
+	"name": "Rockets",
+	"description": "Water bottle rockets, model rockets, rideable sky and space rockets, a jetpack, rocket boosts and a Mission Control with a countdown.",
+	"authors": ["ulfendk"],
+	"contact": {
+		"homepage": "https://ulfendk.github.io/minecraft-rockets/",
+		"sources": "https://github.com/ulfendk/minecraft-rockets",
+		"issues": "https://github.com/ulfendk/minecraft-rockets/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/rockets/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["dk.ulfen.rockets.Rockets"],
+		"client": ["dk.ulfen.rockets.client.RocketsClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"geckolib": ">=5.5"
+	}
+}
