@@ -38,6 +38,7 @@ export const GEAR_INFO = {
 };
 
 const en = {
+  allMods: 'All our mods',
   title: 'Rockets – Minecraft add-on and mod',
   description: (n) => `${n} rockets for Minecraft Bedrock and Java Edition, from water bottle rockets to a space rocket for four, plus a jetpack, rocket boosts and Mission Control. Free download.`,
   tagline: (n) => `${n} rockets for Minecraft Bedrock and Java Edition. Pump up a water bottle rocket, launch a model rocket, or climb into a rocket and fly to the edge of the sky, then parachute home.`,
@@ -98,6 +99,7 @@ const en = {
 };
 
 const da = {
+  allMods: 'Alle vores mods',
   title: 'Rockets – raketter til Minecraft',
   description: (n) => `${n} raketter til Minecraft Bedrock og Java Edition, fra vandraketter til en rumraket til fire, plus jetpack, raketboost og kontrolcenter. Gratis download.`,
   tagline: (n) => `${n} raketter til Minecraft Bedrock og Java Edition. Pump en vandraket op, affyr en modelraket, eller kravl ind i en raket og flyv op til himlens grænse, og svæv hjem i faldskærm.`,
